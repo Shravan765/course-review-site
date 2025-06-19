@@ -26,6 +26,7 @@ This project is a simple Flask + MySQL-powered web application to collect and vi
 
 ## 📦 Project Structure
 
+```plaintext
 .
 ├── backend_flask.py             # Main Flask server
 ├── backend_mysql_work.py        # Database logic
@@ -37,6 +38,7 @@ This project is a simple Flask + MySQL-powered web application to collect and vi
 ├── .env                         # (not included) Database credentials
 ├── mysql_table.txt              # SQL schema for the required table
 └── README.md
+```
 
 
 ## 📁 Environment Variables
