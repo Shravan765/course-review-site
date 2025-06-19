@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>View Reviews</title>
+    </head>
+    <body>
+
+        <form>
+            <!-- Course Info -->
+            <label for="course_code">Course Code:</label><br>
+            <input type="text" id="code" name="code"><br>
+            
+            <label for="prof">Professor's full name:</label><br>
+            <input type="text" id="prof" name="prof"><br><br>
+
+            <!-- Ease of Scoring Marks -->
+            <div id="ease_of_scoring_marks_text">
+                How easy would you rate getting good grades as?<br>
+                1 is very difficult and 5 is very easy
+            </div>
+            <input type="radio" id="e1" name="ease_of_scoring_marks" value="1">
+            <label for="e1">1</label>
+            <input type="radio" id="e2" name="ease_of_scoring_marks" value="2">
+            <label for="e2">2</label>
+            <input type="radio" id="e3" name="ease_of_scoring_marks" value="3">
+            <label for="e3">3</label>
+            <input type="radio" id="e4" name="ease_of_scoring_marks" value="4">
+            <label for="e4">4</label>
+            <input type="radio" id="e5" name="ease_of_scoring_marks" value="5">
+            <label for="e5">5</label><br><br>
+
+            <!-- Teaching Quality -->
+            <div id="teaching_quality_text">
+                How enjoyable would you rate the course as?<br>
+                1 is very boring and 5 is very interesting
+            </div>
+            <input type="radio" id="t1" name="teaching_quality" value="1">
+            <label for="t1">1</label>
+            <input type="radio" id="t2" name="teaching_quality" value="2">
+            <label for="t2">2</label>
+            <input type="radio" id="t3" name="teaching_quality" value="3">
+            <label for="t3">3</label>
+            <input type="radio" id="t4" name="teaching_quality" value="4">
+            <label for="t4">4</label>
+            <input type="radio" id="t5" name="teaching_quality" value="5">
+            <label for="t5">5</label><br><br>
+
+            <!-- Workload -->
+            <div id="workload_text">
+                How heavy would you rate the workload as?<br>
+                1 is very light and 5 is very heavy
+            </div>
+            <input type="radio" id="w1" name="workload" value="1">
+            <label for="w1">1</label>
+            <input type="radio" id="w2" name="workload" value="2">
+            <label for="w2">2</label>
+            <input type="radio" id="w3" name="workload" value="3">
+            <label for="w3">3</label>
+            <input type="radio" id="w4" name="workload" value="4">
+            <label for="w4">4</label>
+            <input type="radio" id="w5" name="workload" value="5">
+            <label for="w5">5</label><br><br>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Submit">
+        </form>
+
+
+
+
+        <script src = "review_submission_script.js"></script>
+    </body>
+</html>

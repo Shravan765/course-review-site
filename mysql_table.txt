@@ -1,0 +1,9 @@
+mysql> create table course_review(
+    -> course_id VARCHAR(7),
+    -> prof_name VARCHAR(30),
+    -> ease_of_scoring FLOAT,
+    -> teaching_quality FLOAT,
+    -> workload FLOAT,
+    -> number_of_reviews INT,
+    -> primary key(course_id, prof_name) );
+Query OK, 0 rows affected (0.03 sec)
